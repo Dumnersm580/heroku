@@ -1,7 +1,12 @@
-.git
-.nyc_output
-build
+# ignore
+*.sqlite*
 node_modules
-*.swp
-.env
-package-lock.json
+logs/*
+data/emojis
+.vscode
+.directory
+config.json
+to-do.txt
+
+# do not ignore
+!.gitkeep

@@ -1,38 +1,38 @@
 {
-  "name": "discord-bot-github",
-  "version": "0.4.7",
-  "description": "A Discord bot which lets you subscribe to GitHub events and reports about your subscriptions.",
-  "main": "build/bundle.js",
-  "scripts": {
-    "test": "echo \"No tests\"",
-    "build": "npm i && ./node_modules/.bin/rollup -c",
-    "start": "npm run build && node build/bundle.js"
+  "name": "calypso",
+  "version": "1.7.0",
+  "description": "A fully customizable bot built with discord.js",
+  "main": "app.js",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "better-sqlite3": "^7.1.0",
+    "common-tags": "^1.8.0",
+    "discord.js": "^12.3.1",
+    "he": "^1.2.0",
+    "minimist": ">=1.2.2",
+    "moment": "^2.22.2",
+    "ms": "^2.1.2",
+    "node-os-utils": "^1.3.1",
+    "node-pre-gyp": "^0.11.0",
+    "node-schedule": "^1.3.2",
+    "winston": "^3.2.1",
+    "yaml": "^1.8.3",
+    "youtube-search": "^1.1.4"
   },
-  "engines": {
-    "node": "14.15.1"
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Falconerd/discord-bot-github.git"
+    "url": "git+https://sabattle@github.com/sabattle/CalypsoBot.git"
   },
-  "keywords": [
-    "Discord",
-    "GitHub",
-    "Bot"
-  ],
-  "author": "Dylan Falconer <me@falconerd.com> (http://falconerd.com)",
-  "license": "MIT",
+  "author": "Sebastian Battle",
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/Falconerd/discord-bot-github/issues"
+    "url": "https://github.com/sabattle/CalypsoBot/issues"
   },
-  "homepage": "https://github.com/Falconerd/discord-bot-github#readme",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "discord.js": "^9.2.0",
-    "express": "^4.14.0",
-    "mongodb": "^3.1.13",
-    "request": "^2.74.0",
-    "rollup": "^2.34.1",
-    "dotenv": "^8.2.0"
-  }
+  "homepage": "https://github.com/sabattle/CalypsoBot#readme"
 }
